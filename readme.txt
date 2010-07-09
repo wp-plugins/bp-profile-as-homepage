@@ -1,0 +1,40 @@
+=== BP Profile as Homepage ===
+Contributors: Jatinder Pal Singh
+Tags: Buddypress, Profile, Homepage, Login, Redirection
+Requires at least: 3.0
+Tested up to: 3.0
+Stable tag: 0.1
+
+== Description ==
+
+If you want FACEBOOK like functionality for your buddypress installation where Homepage for Vistiors is different than Logged in users, you should try this plugin. This plugin redirects the users to their profiles 
+1. when they log into your website
+2. when they try to move to homepage
+
+because once users are logged in, there is no need to appeal them to register,so they shouldn't be sent their again.
+This plugin is successfully tested with Wordpress 3.0 and buddypress 1.2.5. It should also work with Wordpress MU.
+
+== Installation ==
+
+1. Upload `bp-profile-as-homepage` directory to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions ==
+1. How this plugin can be helpful?
+Ans: It is suggested that you should have a static HOMEPAGE for your visitors which is having register link. Now once, your user has logged into buddypress, he will be redirected to his/her profile. So, you dont need seperate plugin which redirects the user to profile on logging in. Secondly everytime user clicks on homepage links or logo of your website, he will be redirected to his/her profile which makes easy accessiblity of own profile to the user and more over there is no need to show register link to logged in user.
+
+2. Any conflicts with this plugin ?
+Ans: It may have conflicts with the plugins who offer redirections for buddypress plugin
+
+== Screenshots ==
+No screenshots. Just activate and enjoy
+
+
+== Changelog ==
+= 0.1 =
+* Just developed
+
+== Support Questions ==
+if you want to ask anything regarding this plugin, you can always put your questions on my blog from where this plugin is also available for download
+http://jpsblog.co.cc/blog/2010/07/06/bp-profile-as-homepage/
+
