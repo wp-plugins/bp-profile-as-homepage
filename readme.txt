@@ -3,13 +3,15 @@ Contributors: Jatinder Pal Singh
 Tags: Buddypress, Profile, Homepage, Login, Redirection
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 0.1
+Stable tag: 0.2
 
 == Description ==
 
-If you want FACEBOOK like functionality for your buddypress installation where Homepage for Vistiors is different than Logged in users, you should try this plugin. This plugin redirects the users to their profiles 
-1. when they log into your website
-2. when they try to move to homepage
+If you want FACEBOOK like functionality for your buddypress installation where Homepage for Vistiors is different than Logged in users, you should try this plugin. This plugin performs following tasks:
+
+** when user log into your website, user is redirected to his/her profile
+** when user try to move to homepage, user is redirected to his/her profile
+** when user logs out of your website, user is redirected to homepage of the website.
 
 because once users are logged in, there is no need to appeal them to register,so they shouldn't be sent their again.
 This plugin is successfully tested with Wordpress 3.0 and buddypress 1.2.5. It should also work with Wordpress MU.
@@ -33,6 +35,9 @@ No screenshots. Just activate and enjoy
 == Changelog ==
 = 0.1 =
 * Just developed
+
+= 0.2 =
+added log out redirection
 
 == Support Questions ==
 if you want to ask anything regarding this plugin, you can always put your questions on my blog from where this plugin is also available for download
