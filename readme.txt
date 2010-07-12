@@ -3,7 +3,7 @@ Contributors: Jatinder Pal Singh
 Tags: Buddypress, Profile, Homepage, Login, Redirection
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 0.2
+Stable tag: 0.3
 
 == Description ==
 

@@ -6,7 +6,6 @@ Author: Jatinder Pal Singh
 Version: 0.3
 Author URI: http://jpsblog.co.cc
 */
-
 function bp_profile_homepage()
 {
 	global $bp;
@@ -19,7 +18,6 @@ function logout_redirection()
 {
 	global $bp;
 	$redirect = $bp->root_domain;
-//	$redirect = get_option('siteurl');
 	wp_logout_url( $redirect );	
 }
 add_filter('get_header','bp_profile_homepage',1);
