@@ -14,7 +14,7 @@ If you want FACEBOOK like functionality for your buddypress installation where H
 ** when user logs out of your website, user is redirected to homepage of the website.
 
 because once users are logged in, there is no need to appeal them to register,so they shouldn't be sent their again.
-This plugin is successfully tested with Wordpress 3.0 and buddypress 1.2.5. It should also work with Wordpress MU.
+This plugin is successfully tested with Wordpress 3.1.3 and buddypress 1.2.8.
 
 == Installation ==
 
