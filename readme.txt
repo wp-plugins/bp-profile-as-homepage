@@ -2,8 +2,8 @@
 Contributors: Jatinder Pal Singh
 Tags: Buddypress, Profile, Homepage, Login, Redirection
 Requires at least: 3.0
-Tested up to: 3.0
-Stable tag: 0.3
+Tested up to: 3.1.2
+Stable tag: 0.4
 
 == Description ==
 
@@ -29,8 +29,8 @@ Ans: It is suggested that you should have a static HOMEPAGE for your visitors wh
 Ans: It may have conflicts with the plugins who offer redirections for buddypress plugin
 
 == Screenshots ==
+See this plugin in action on http://mycircle.cz.cc
 No screenshots. Just activate and enjoy
-
 
 == Changelog ==
 = 0.1 =
@@ -42,7 +42,9 @@ added log out redirection
 = 0.3 =
 log out redirection bug fixed
 
+= 0.4 =
+enabled for Buddypress installations within the directory. which means if your blog is not installed on root domain, still you can use this plugin.
+
 == Support Questions ==
-if you want to ask anything regarding this plugin, you can always put your questions on my blog from where this plugin is also available for download
-http://jpsblog.co.cc/blog/2010/07/06/bp-profile-as-homepage/
+if you want to ask anything regarding this plugin, you can always put your questions on my website http://appinstore.com
 

@@ -3,13 +3,13 @@
 Plugin Name: BP Profile as Homepage
 Description: Logged in users will be redirected to their profile page if they try to move to HomePage anywhere within buddypress installation same as FACEBOOK do. And as the user logs out, he/she is redirected to homepage again. This is tested successfully with Wordpress 3.0 and Buddypress 1.2.5.
 Author: Jatinder Pal Singh
-Version: 0.3
-Author URI: http://jpsblog.co.cc
+Version: 0.4
+Author URI: http://appinstore.com
 */
 function bp_profile_homepage()
 {
 	global $bp;
-	if(is_user_logged_in() && $_SERVER['REQUEST_URI']=='/')
+	if(is_user_logged_in() && bp_is_front_page())
 	{
 			wp_redirect( $bp->loggedin_user->domain );
 	}
