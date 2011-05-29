@@ -3,7 +3,7 @@ Contributors: Jatinder Pal Singh
 Tags: Buddypress, Profile, Homepage, Login, Redirection
 Requires at least: 3.0
 Tested up to: 3.1.2
-Stable tag: 0.4
+Stable tag: 0.5
 
 == Description ==
 
@@ -44,6 +44,9 @@ log out redirection bug fixed
 
 = 0.4 =
 enabled for Buddypress installations within the directory. which means if your blog is not installed on root domain, still you can use this plugin.
+
+= 0.5 =
+Many themes were creating problem for redirection, so changes made so that redirection can work in any case
 
 == Support Questions ==
 if you want to ask anything regarding this plugin, you can always put your questions on my website http://appinstore.com
