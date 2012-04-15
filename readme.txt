@@ -1,9 +1,12 @@
 === BP Profile as Homepage ===
 Contributors: Jatinder Pal Singh
+Donate link: http://www.appinstore.com/donate-please/
+Author URI: http://www.appinstore.com
+Plugin URI: http://www.appinstore.com/bp-profie-as-homepage-0-6/
 Tags: Buddypress, Profile, Homepage, Login, Redirection
 Requires at least: 3.0
-Tested up to: 3.1.2
-Stable tag: 0.5
+Tested up to: 3.3.1
+Stable tag: 0.6
 
 == Description ==
 
@@ -14,12 +17,21 @@ If you want FACEBOOK like functionality for your buddypress installation where H
 ** when user logs out of your website, user is redirected to homepage of the website.
 
 because once users are logged in, there is no need to appeal them to register,so they shouldn't be sent their again.
-This plugin is successfully tested with Wordpress 3.1.3 and buddypress 1.2.8.
+Now you can select the user role, who can view the homepage. Roles which can be selected;
+No One:- Nobody is allowed to view homepage
+Administrators:- Only users with the role 'administrator' can view the homepage
+Editors:- Only users with the role 'editor' can view the homepage
+Authors:- Only users with the role 'author' can view the homepage
+Contributors:- Only users with the role 'contributor' can view the homepage
+Subscribers:- Only users with the role 'subscriber' can view the homepage
+
+This plugin is successfully tested with Wordpress 3.3.1 and buddypress 1.5.5
 
 == Installation ==
 
 1. Upload `bp-profile-as-homepage` directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Under settings, from BP Profile as Homepage settings, you can select the user role who can view homepage.by default, no one is allowed to view the homepage.
 
 == Frequently Asked Questions ==
 1. How this plugin can be helpful?
@@ -29,7 +41,6 @@ Ans: It is suggested that you should have a static HOMEPAGE for your visitors wh
 Ans: It may have conflicts with the plugins who offer redirections for buddypress plugin
 
 == Screenshots ==
-See this plugin in action on http://mycircle.cz.cc
 No screenshots. Just activate and enjoy
 
 == Changelog ==
@@ -47,6 +58,9 @@ enabled for Buddypress installations within the directory. which means if your b
 
 = 0.5 =
 Many themes were creating problem for redirection, so changes made so that redirection can work in any case
+
+= 0.6 =
+added option to select the user role who can view the homepage.
 
 == Support Questions ==
 if you want to ask anything regarding this plugin, you can always put your questions on my website http://appinstore.com
