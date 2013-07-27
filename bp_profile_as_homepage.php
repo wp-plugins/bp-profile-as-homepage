@@ -4,8 +4,8 @@ Plugin Name: BP Profile as Homepage
 Description: Logged in users will be redirected to their profile page if they try to move to HomePage anywhere within buddypress installation same as FACEBOOK do. And as the user logs out, he/she is redirected to homepage again. This is tested successfully with Wordpress 3.0 and Buddypress 1.2.5.
 Author: Jatinder Pal Singh
 Author URI: http://www.appinstore.com
-Plugin URI: http://www.appinstore.com/bp-profie-as-homepage-0-6/
-Version: 0.6
+Plugin URI: http://www.appinstore.com/2013/07/wordpress-bp-profile-as-homepage.html
+Version: 1.0
 */
 function bp_profile_homepage()
 {
@@ -72,7 +72,7 @@ else
 ?> <hr />
 <?php _e("Who can view Homepage:", 'bpahp-menu' ); ?> 
 <select name="<?php echo $data_field_name; ?>">
-	<option value="">No One</option>
+	<option value="">None</option>
 	<option value="administrator">Administrators</option>
     <option value="editor">Editors</option>
     <option value="author">Authors</option>
@@ -85,11 +85,17 @@ else
 </p>
 </form>
 <hr />
-<b> If you like my work, kindly support me to keep my blog working by donating a small amount. For helping me and donation, <a href="http://www.appinstore.com/donate-please/">click here<img src="http://www.appinstore.com/wp-content/uploads/2012/04/donate.png" alt="donate now" /></a></b>
+<b> If you like my work, kindly support me to keep my blog working by donating a small amount. For helping me and donation, <a href="http://www.appinstore.com/p/donate.html">click here</a></b>
 <p><h2><u>My other plugins:</u></h2></p>
 <ul>
-<li><a href="http://www.appinstore.com/force-post-category-selection/">Force Post Category Selection</a></li>
-<li><a href="http://www.appinstore.com/force-post-title/">Force Post Title</a></li>
+<li>BP Login Redirect - Decide where to send your users after login</li>
+<li>Force Post Category Selection - No More Uncategoriezed Posts, No More forgetting category selections</li>
+<li>Force Post Title - No More Untitled Posts</li>
+<li>AutoSet Featured Images for Posts - No need to set featured images manually.It will do it for you automatically.</li>
+<li>Wordpress QRCODE Widget - Share your website with Style. It will generate dynamic QR Codes for whole website.</li>
+<li>Wordpress Version Remover - Save your wordpress website from hackers. It will remove the wordpress version.</li>
+<li>Schedule your Posts - Do not schedule posts now. Just schedule the content of the Post.One Post can show different content daily.</li>
+<li><a href="http://www.appinstore.com/search/label/Plugins" alt="www.appinstore.com">Click here to see my plugins.</a></li>
 </ul>
 </div>
 <?php

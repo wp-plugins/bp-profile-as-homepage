@@ -1,12 +1,11 @@
 === BP Profile as Homepage ===
 Contributors: Jatinder Pal Singh
-Donate link: http://www.appinstore.com/donate-please/
+Donate link: http://www.appinstore.com/p/donate.html
 Author URI: http://www.appinstore.com
-Plugin URI: http://www.appinstore.com/bp-profie-as-homepage-0-6/
-Tags: Buddypress, Profile, Homepage, Login, Redirection
+Plugin URI: http://www.appinstore.com/2013/07/wordpress-bp-profile-as-homepage.html
+Tags: Buddypress, Profile, Homepage, Login, Redirection, facebook,
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 0.6
+Stable tag: 1.0
 
 == Description ==
 
@@ -18,14 +17,14 @@ If you want FACEBOOK like functionality for your buddypress installation where H
 
 because once users are logged in, there is no need to appeal them to register,so they shouldn't be sent their again.
 Now you can select the user role, who can view the homepage. Roles which can be selected;
-No One:- Nobody is allowed to view homepage
+None:- Nobody is allowed to view homepage
 Administrators:- Only users with the role 'administrator' can view the homepage
 Editors:- Only users with the role 'editor' can view the homepage
 Authors:- Only users with the role 'author' can view the homepage
 Contributors:- Only users with the role 'contributor' can view the homepage
 Subscribers:- Only users with the role 'subscriber' can view the homepage
 
-This plugin is successfully tested with Wordpress 3.3.1 and buddypress 1.5.5
+This plugin is successfully tested with Wordpress 3.5.2 and buddypress 1.8
 
 == Installation ==
 
@@ -61,6 +60,9 @@ Many themes were creating problem for redirection, so changes made so that redir
 
 = 0.6 =
 added option to select the user role who can view the homepage.
+
+= 1.0 =
+updated to work with latest wordpress and buddypress editions
 
 == Support Questions ==
 if you want to ask anything regarding this plugin, you can always put your questions on my website http://appinstore.com
