@@ -1,11 +1,14 @@
 <?php
 /*
 Plugin Name: BP Profile as Homepage
-Description: Logged in users will be redirected to their profile page if they try to move to HomePage anywhere within buddypress installation same as FACEBOOK do. And as the user logs out, he/she is redirected to homepage again. This is tested successfully with Wordpress 3.0 and Buddypress 1.2.5.
+Description: Logged in users will be redirected to their profile page if they try to move to HomePage anywhere within buddypress installation same as FACEBOOK do. And as the user logs out, he/she is redirected to homepage again. This is tested successfully with Wordpress 4.1 and Buddypress 2.1.1
 Author: Jatinder Pal Singh
-Author URI: http://www.appinstore.com
-Plugin URI: http://www.appinstore.com/2013/07/wordpress-bp-profile-as-homepage.html
-Version: 1.0
+Author URI: http://www.jpsays.com
+Requires at least: 3.x
+Tested up to: 4.1
+Stable Tag: 1.1
+Donate link:
+Tags: Buddypress,Social,Facebook,login,redirect
 */
 function bp_profile_homepage()
 {
@@ -13,14 +16,14 @@ function bp_profile_homepage()
 	$selected_role = get_option('bpahp_role_choice');
 	if($selected_role == '')
 	{
-		if(is_user_logged_in() && bp_is_front_page())
+		if(is_user_logged_in() && is_front_page())
 		{
 			wp_redirect( $bp->loggedin_user->domain );
 		}
 	}
 	else
 	{
-		if(!current_user_can($selected_role) && bp_is_front_page())
+		if(!current_user_can($selected_role) && is_front_page())
 		{
 			wp_redirect( $bp->loggedin_user->domain );
 		}
@@ -95,7 +98,7 @@ else
 <li>Wordpress QRCODE Widget - Share your website with Style. It will generate dynamic QR Codes for whole website.</li>
 <li>Wordpress Version Remover - Save your wordpress website from hackers. It will remove the wordpress version.</li>
 <li>Schedule your Posts - Do not schedule posts now. Just schedule the content of the Post.One Post can show different content daily.</li>
-<li><a href="http://www.appinstore.com/search/label/Plugins" alt="www.appinstore.com">Click here to see my plugins.</a></li>
+<li><a href="http://www.jpsays.com/search/label/wordpress" alt="www.jpsays.com">Click here to see my plugins.</a></li>
 </ul>
 </div>
 <?php

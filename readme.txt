@@ -1,11 +1,12 @@
 === BP Profile as Homepage ===
 Contributors: Jatinder Pal Singh
-Donate link: http://www.appinstore.com/p/donate.html
-Author URI: http://www.appinstore.com
-Plugin URI: http://www.appinstore.com/2013/07/wordpress-bp-profile-as-homepage.html
+Author URI: http://jpsays.com
+Plugin URI: http://www.jpsays.com/2015/01/bp-profile-as-homepage-version-11.html
 Tags: Buddypress, Profile, Homepage, Login, Redirection, facebook,
-Requires at least: 3.0
-Stable tag: 1.0
+Requires at least: 3.X
+Stable tag: 1.1
+Tested up to:4.1
+
 
 == Description ==
 
@@ -24,7 +25,7 @@ Authors:- Only users with the role 'author' can view the homepage
 Contributors:- Only users with the role 'contributor' can view the homepage
 Subscribers:- Only users with the role 'subscriber' can view the homepage
 
-This plugin is successfully tested with Wordpress 3.5.2 and buddypress 1.8
+This plugin is successfully tested with Wordpress 4.1 and buddypress 2.1.1
 
 == Installation ==
 
@@ -64,6 +65,8 @@ added option to select the user role who can view the homepage.
 = 1.0 =
 updated to work with latest wordpress and buddypress editions
 
-== Support Questions ==
-if you want to ask anything regarding this plugin, you can always put your questions on my website http://appinstore.com
+= 1.1 =
+Fixed bugs for wordpress 4.1 and buddypress 2.1.1. thanks to John Clause
 
+== Support Questions ==
+if you want to ask anything regarding this plugin, you can always put your questions on my website http://www.jpsays.com
