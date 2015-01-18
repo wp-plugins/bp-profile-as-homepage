@@ -6,7 +6,7 @@ Tags: Buddypress, Profile, Homepage, Login, Redirection, facebook,
 Requires at least: 3.X
 Stable tag: 1.1
 Tested up to:4.1
-
+Version: 1.1
 
 == Description ==
 

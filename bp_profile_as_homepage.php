@@ -9,6 +9,7 @@ Tested up to: 4.1
 Stable Tag: 1.1
 Donate link:
 Tags: Buddypress,Social,Facebook,login,redirect
+Version:1.1
 */
 function bp_profile_homepage()
 {
