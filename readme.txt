@@ -1,7 +1,7 @@
 === BP Profile as Homepage ===
-Contributors: Jatinder Pal Singh
+Contributors: j_p_s
+Author: Jatinder Pal Singh
 Author URI: http://jpsays.com
-Plugin URI: http://www.jpsays.com/2015/01/bp-profile-as-homepage-version-11.html
 Tags: Buddypress, Profile, Homepage, Login, Redirection, facebook,
 Requires at least: 3.X
 Stable tag: 1.1
